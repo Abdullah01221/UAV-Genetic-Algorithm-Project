@@ -51,9 +51,3 @@ If total route distance exceeds the maximum flight range (70), an additional pen
 ## Notes and limitations
 This is an educational grid simulation. Waypoints are randomly generated and the fitness function penalizes route segments that pass through obstacle cells; it does not perform a full geometric route-repair algorithm. The sensor model uses a simplified circular detection radius (`sensor_power / 20`). The energy and time equations are simplified estimates, not real UAV engineering models. A single random-search comparison is illustrative; repeat runs for stronger conclusions.
 
-## Suggested report structure (3–5 pages)
-1. Problem and environment description
-2. Chromosome representation and fitness-function weights
-3. GA operations: population, tournament selection, crossover, mutation, elitism, termination
-4. Hyperparameter sensitivity: population size, mutation rate, and selection pressure
-5. Comparison with random search, results, limitations, and conclusion
